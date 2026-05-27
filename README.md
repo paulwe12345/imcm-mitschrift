@@ -23,3 +23,7 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 
 - Bits können über verschiedene Übertragungsmedien zwischen Computern versendt werden.
 - Die Anzahl der Übertragenen Bits pro Sekunde wird als Bandbreite bezeichnet - z.b.: 300MBit/s -> 300 Millionen Bit können pro Sekunde über diese Leitung laufen.
+- Die zwei Hauptübertrager sind :
+1. Kupfer / Elektrizität
+
+2. Glasfaser / Licht
