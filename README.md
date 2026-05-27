@@ -22,3 +22,4 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - 8 Bits ergeben 1 Byte. Mit einem Byte kann man 256 verschiedene Werte speichern (2^8).
 
 - Bits können über verschiedene Übertragungsmedien zwischen Computern versendt werden.
+- Die Anzahl der Übertragenen Bits pro Sekunde wird als Bandbreite bezeichnet - z.b.: 300MBit/s -> 300 Millionen Bit können pro Sekunde über diese Leitung laufen.
