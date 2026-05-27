@@ -20,3 +20,5 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - Informationen werden im Internet als Bits übertrage.
 - Bits haben zwei Werte: 0 oder 1. 
 - 8 Bits ergeben 1 Byte. Mit einem Byte kann man 256 verschiedene Werte speichern (2^8).
+
+- Bits können über verschiedene Übertragungsmedien zwischen Computern versendt werden.
