@@ -67,8 +67,12 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
     > - 1xx: die Anfrage wird verarbeitet
     > - 2xx: die Anfrage wurde erfolgreich verarbeitet
     > - 3xx: die Anfrage wurde umgeleitet
-    > - 4xx: Client-Error: fehler auf der Seite des Clients (z.b. 404 - Seite nicht gefunden)
+    > - 4xx: Client-Error: fehler auf der Seite des Clients (z.b. 404 - Seite nicht gefunden
     > - 5xx: Server-Error: fehler auf der Seite des Servers
-    >
-    3. die HTTP-Antwort enthält den HTML-Code der Webseite
-    4. der Browser rendert den HTML-Code und zeigt die Webseite an
+
+<br>    
+
+- Daten werden mittels GET-Anfragen angefordert
+- User-Inputs werden mittels POST-Anfragen verschlüsselt übermittelt
+- GET und Post sind sogenannte *HTTP-Methoden*. Es gibt noch weitere Methoden die wir erst später kennenlernen.
+- HTTP-Anfragen können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es bei jeder weiteren Anfrage an den selben Server automatisch mitgesendet. So kann der Server den Nutzer wiedererkennen.
