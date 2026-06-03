@@ -49,3 +49,9 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - jedes Gerät im Internet hat zumindestens eine (eindeutige) IP-Adresse, viele Geräte haben aber eine externe IP (ähnlich wie Hausnummern) und eine Interne IP (ähnlich wie die Raumnummern)
 - das Domain Name System (DNS) übersetzt menschenlesbare Domainnamen (z.b.: www.google.com) in IP-Adressen
 - DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
+
+### Teil 4 - The Internet: Packets, Routing and Reliability
+- Daten die über das Internet versendet werden werden in Pakete aufgeteilt
+- Packete sind in der regel 1500 Byte groß (=1.5KB). Das heißt ein 10MB großes Bild würde in 6667 Pakete aufgeteilt werden (10MB = 10.000KB = 10.000.000 Byte / 1500 Byte = 6667 Pakete)
+- Pakete können unterschiedliche Routen durch das Internet nehmen. Die Routenplanung erfolgt spezielle Computer sogenante Router. Die Router entscheiden welche Route die Pakete nehmen sollen, basierend auf der auslastung verschiedener Routen, der Entfernung zum Ziel und anderen Faktoren.
+- jedes Paket enthält die IP-Adressen der Quelle und des Ziels, sowie die Reihenfolge der Pakete (damit sie am Ziel wieder in der richtigen Reihenfolge zusammengesetzt werden können)
