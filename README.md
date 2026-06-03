@@ -63,5 +63,13 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - der ablauf ist immer wie folgt: 
     1. der Browser sendet eine HTTP-Anfrage an den Web-Server
     2. der Web-Server verarbeitet die Anfrage und sendet eine HTTP-Antwort zurück. Dabei versieht er die Antwort mit einem [HTTP-Statuscode].
+    > [! NOTE]
+    #### HTTP-Statuscode-Klassen
+    > - 1xx: die Anfrage wird verarbeitet
+    > - 2xx: die Anfrage wurde erfolgreich verarbeitet
+    > - 3xx: die Anfrage wurde umgeleitet
+    > - 4xx: die Anfrage enthält Fehler (z.b.: ungültige URL (bekanntester Code: 404), ...)
+    > - 5xx: der Server hat einen Fehler bei der Verarbeitung der Anfrage gemacht (z.b.: Server überlastet, Fehler in der Server-Software, ...)
+    >
     3. die HTTP-Antwort enthält den HTML-Code der Webseite
     4. der Browser rendert den HTML-Code und zeigt die Webseite an
