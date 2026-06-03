@@ -55,3 +55,13 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - Packete sind in der regel 1500 Byte groß (=1.5KB). Das heißt ein 10MB großes Bild würde in 6667 Pakete aufgeteilt werden (10MB = 10.000KB = 10.000.000 Byte / 1500 Byte = 6667 Pakete)
 - Pakete können unterschiedliche Routen durch das Internet nehmen. Die Routenplanung erfolgt spezielle Computer sogenante Router. Die Router entscheiden welche Route die Pakete nehmen sollen, basierend auf der auslastung verschiedener Routen, der Entfernung zum Ziel und anderen Faktoren.
 - jedes Paket enthält die IP-Adressen der Quelle und des Ziels, sowie die Reihenfolge der Pakete (damit sie am Ziel wieder in der richtigen Reihenfolge zusammengesetzt werden können)
+- am Ziel wird die vollständigkeit der Pakete durch das *Transmission Control Protocol* (TCP) überprüft. Wenn Pakete verloren gehen fordert TCP die erneute Übertragung an. TCP sorgt auch dafür, dass die Pakete in der richtigen Reihenfolge zusammengesetzt werden. 
+- TCP und IP bilden gemeinsam die Basis für die Funktionsweise des Internets - man spricht auch von TCP/IP-Modell
+### Teil 5 - The Internet: HTTP, HTML
+
+- das *Hypertext Transfer Protocol* (HTTP) ist das Protokoll für die Übertragung von Webseiten
+- der ablauf ist immer wie folgt: 
+    1. der Browser sendet eine HTTP-Anfrage an den Web-Server
+    2. der Web-Server verarbeitet die Anfrage und sendet eine HTTP-Antwort zurück. Dabei versieht er die Antwort mit einem [HTTP-Statuscode].
+    3. die HTTP-Antwort enthält den HTML-Code der Webseite
+    4. der Browser rendert den HTML-Code und zeigt die Webseite an
