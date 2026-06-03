@@ -68,7 +68,7 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
     > - 1xx: die Anfrage wird verarbeitet
     > - 2xx: die Anfrage wurde erfolgreich verarbeitet
     > - 3xx: die Anfrage wurde umgeleitet
-    > - 4xx: die Anfrage enthält Fehler (z.b.: ungültige URL (bekanntester Code: 404), ...)
+    > - 4xx: die Anfrage enthält Fehler (z.b.: ungültige URL (Code: 404), ...)
     > - 5xx: der Server hat einen Fehler bei der Verarbeitung der Anfrage gemacht (z.b.: Server überlastet, Fehler in der Server-Software, ...)
     >
     3. die HTTP-Antwort enthält den HTML-Code der Webseite
