@@ -42,5 +42,10 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 3. Funk / Radiowellen
     - hoher Komfort, Internet überall
     - hohe Verluste über Distanzen
-    
-    
+
+### Teil 3 - The Internet: IP-Adressen & DNS
+- Protokolle sind die Regeln der Kommunikation
+- eines der wichtigsten Protokolle im Internet ist das Internet Protocol (IP) 
+- jedes Gerät im Internet hat zumindestens eine (eindeutige) IP-Adresse, viele Geräte haben aber eine externe IP (ähnlich wie Hausnummern) und eine Interne IP (ähnlich wie die Raumnummern)
+- das Domain Name System (DNS) übersetzt menschenlesbare Domainnamen (z.b.: www.google.com) in IP-Adressen
+- DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
