@@ -67,7 +67,7 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
     > - 1xx: die Anfrage wird verarbeitet
     > - 2xx: die Anfrage wurde erfolgreich verarbeitet
     > - 3xx: die Anfrage wurde umgeleitet
-    > - 4xx: Client-Error: fehler auf der Seite des Clients (z.b. 404 - Seite nicht gefunden
+    > - 4xx: Client-Error: fehler auf der Seite des Clients (z.b. 404 - Seite nicht gefunden)
     > - 5xx: Server-Error: fehler auf der Seite des Servers
 
 <br>    
@@ -76,3 +76,15 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 - User-Inputs werden mittels POST-Anfragen verschlüsselt übermittelt
 - GET und Post sind sogenannte *HTTP-Methoden*. Es gibt noch weitere Methoden die wir erst später kennenlernen.
 - HTTP-Anfragen können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es bei jeder weiteren Anfrage an den selben Server automatisch mitgesendet. So kann der Server den Nutzer wiedererkennen.
+
+### Teil 8 - The Internet: How Search Works
+- Suchmaschienen-Bots (*Crawler*) durchsuchen das Internet regelmäßig nach neuen Webseiten und aktualisieren die Informationen über bestehende Webseiten. Sie katalogisieren die Informationen der Websites. Der Katalog wird auch *Index* genannt.
+- Wenn wir einen Suchbegriff bei Google oder einer anderen Suchmaschine eingeben, wird nicht das WWW durchsucht, sondern der Index.
+- Suchergebnisse werden auf Basis eines "geheimen" Algorithmus geranked - Ergebnisse die weiter oben stehten werden öfter angeklickt als Ergebnisse die weiter unten stehen. Daher ist es wichtig möglichst weit oben in den Suchergebnissen zu stehen.
+- Einfluss auf das Ranking haben unter anderem: 
+    - die Häufigkeit von bestimmten Schlüsselwörtern auf der Webseite (*Keywords*)
+    - die Anzahl der Links die auf die Webseite verweisen (*Backlinks*)
+    - Wie viele Nutzer auf eine Website klicken.
+
+- die Suchergebnisse werden an die Benutzer*innen angepasst! Das heißt, nicht jeder sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen.
+- [Startpage] (https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt.
