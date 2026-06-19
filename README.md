@@ -88,3 +88,18 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 
 - die Suchergebnisse werden an die Benutzer*innen angepasst! Das heißt, nicht jeder sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen.
 - [Startpage] (https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt.
+
+### Ergänzung: Überblicküber TCP/IP-Modell
+
+Im TCP/IP-Modell übernimmt jede Schicht eine bestimmte Aufgabe (*"merke: divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Addressierungsmechanismus:
+
+| Schicht | Protokoll | Dateneinheit | Adressierung |
+| --- | --- | --- | --- |
+|Internet | IP (Internet Protocol) | Paket | IP-Adresse |
+| Transport | TCP (Transmission Control Protocol) | Segment | Port |
+| Link | Ethernet | Frame | MAC-Adresse |
+
+Die Daten der Anwendungschicht werden auf der Transportschicht in ein Segment verpackt.
+Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
+
+![Dateneinheiten im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
