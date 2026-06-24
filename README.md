@@ -8,6 +8,8 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 
 ## Playlist zur Funktionsweise des Internets
 
+![/internet.png](/internet.png)
+
 ### Teil 1 - What is the Internet?
 
 - wurde in den 1970er-Jahren erfunden
@@ -88,3 +90,37 @@ Das ist die README.md-Datei. med steht für Markdown. Markdown ist eine im Inter
 
 - die Suchergebnisse werden an die Benutzer*innen angepasst! Das heißt, nicht jeder sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen.
 - [Startpage] (https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt.
+
+### Ergänzung: Überblicküber TCP/IP-Modell
+
+Im TCP/IP-Modell übernimmt jede Schicht eine bestimmte Aufgabe (*"merke: divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Addressierungsmechanismus:
+
+| Schicht | Protokoll | Dateneinheit | Adressierung |
+| --- | --- | --- | --- |
+|Internet | IP (Internet Protocol) | Paket | IP-Adresse |
+| Transport | TCP (Transmission Control Protocol) | Segment | Port |
+| Link | Ethernet | Frame | MAC-Adresse |
+
+Die Daten der Anwendungschicht werden auf der Transportschicht in ein Segment verpackt.
+Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
+
+![Dateneinheiten im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
+
+
+---
+
+## Webtechnologien: HTML, CSS, JavaScript
+
+![HTML, CSS, JavaScript](/assets/html-css-js.png)
+
+### HTML - *Hypertext Markup Language*
+
+HTML gibt den Inhalten einer Website die Struktur vor. Die `index.html` ist üblicherweise der zentrale Einstiegspunkt für jede Website - alle weiteren Inhalte (Bilder, Videos, Stylesheets, JavaScript-Dateien, ...) werden über diese verknüpft. 
+
+Die zentralen Bausteine von HTML sind sogenannte **Tags**. Tags sind Schlüssel-Wert-Paare (*key-value-pairs*) Der HTML Code einer Website wird vom Browser und von Suchmaschienen-Bots (*Crawler*) gelesen und interpretiert.
+
+![HTML-Syntax](/assets/html-syntax.png)
+
+Ein HTML-Dokument ist hierarchisch aufgebaut. Wir sprechen in diesem Zusammenhang auch von einem **DOM-Tree** (*Document Object Model*). Jedes HTML-Dokument ist aufgebaut wie ein Baum. Die Wurzeln des Baumes ist der `<html>`-Tag. Auf der nächsten Ebene befinden sich die beiden Tags `<head>` und `<body>`. Im `<head>`finden sich in erster Linie Metadaten die Informationen über die Webpage enthalten, z.b. der Titel der Seite, die Sprache, die Zeichencodierung, usw. Im `<body>` befinden sich die eigentlichen Inhalte der Website, z.b. Texte, Bilder, Videos, Links, usw.
+
+![DOM-Tree](/assets/dom-tree.png)
