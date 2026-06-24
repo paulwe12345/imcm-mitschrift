@@ -107,6 +107,7 @@ Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendl
 ![Dateneinheiten im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
 
 
+
 ---
 
 ## Webtechnologien: HTML, CSS, JavaScript
@@ -124,3 +125,4 @@ Die zentralen Bausteine von HTML sind sogenannte **Tags**. Tags sind Schlüssel-
 Ein HTML-Dokument ist hierarchisch aufgebaut. Wir sprechen in diesem Zusammenhang auch von einem **DOM-Tree** (*Document Object Model*). Jedes HTML-Dokument ist aufgebaut wie ein Baum. Die Wurzeln des Baumes ist der `<html>`-Tag. Auf der nächsten Ebene befinden sich die beiden Tags `<head>` und `<body>`. Im `<head>`finden sich in erster Linie Metadaten die Informationen über die Webpage enthalten, z.b. der Titel der Seite, die Sprache, die Zeichencodierung, usw. Im `<body>` befinden sich die eigentlichen Inhalte der Website, z.b. Texte, Bilder, Videos, Links, usw.
 
 ![DOM-Tree](/assets/dom-tree.png)
+
